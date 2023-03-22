@@ -43,12 +43,12 @@ struct ContentView: View {
         VStack{
             WelcomeText()
             UserImage()
-            TextField("Username", text: $username)
+            TextField("Usuario", text: $username)
                 .padding()
                 .background(lightGreyColor)
                 .cornerRadius(5.0)
                 .padding(.top, 100)
-            SecureField("Password", text: $password)
+            SecureField("Contraseña", text: $password)
                 .padding()
                 .background(lightGreyColor)
                 .cornerRadius(5.0)
@@ -60,9 +60,10 @@ struct ContentView: View {
                 .frame(width: 220, height: 60)
                 .background(Color.ui.Color1)
                 .cornerRadius(150)
+                .padding(.top, 50)
         }
         .padding()
-        .padding(.top, -200)
+        .padding(.top, -150)
     }
 }
 
