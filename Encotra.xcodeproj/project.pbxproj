@@ -11,6 +11,7 @@
 		D71D551229CB98F1003D1A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71D551129CB98F1003D1A74 /* ContentView.swift */; };
 		D71D551429CB98F2003D1A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71D551329CB98F2003D1A74 /* Assets.xcassets */; };
 		D71D551829CB98F2003D1A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71D551729CB98F2003D1A74 /* Preview Assets.xcassets */; };
+		D7F8EF7029CB9DEA00EF039A /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8EF6F29CB9DEA00EF039A /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D71D551329CB98F2003D1A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71D551529CB98F2003D1A74 /* Encotra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Encotra.entitlements; sourceTree = "<group>"; };
 		D71D551729CB98F2003D1A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7F8EF6F29CB9DEA00EF039A /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D71D550F29CB98F1003D1A74 /* EncotraApp.swift */,
 				D71D551129CB98F1003D1A74 /* ContentView.swift */,
+				D7F8EF6F29CB9DEA00EF039A /* SplashScreenView.swift */,
 				D71D551329CB98F2003D1A74 /* Assets.xcassets */,
 				D71D551529CB98F2003D1A74 /* Encotra.entitlements */,
 				D71D551629CB98F2003D1A74 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				D71D551229CB98F1003D1A74 /* ContentView.swift in Sources */,
 				D71D551029CB98F1003D1A74 /* EncotraApp.swift in Sources */,
+				D7F8EF7029CB9DEA00EF039A /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
